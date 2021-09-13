@@ -1,5 +1,9 @@
-function getGreeting(name){
+module.exports = {
+  getGreeting(name) {
     return "Hi " + name;
-}
+  },
 
-module.exports = getGreeting;
+  addN(num1, num2) {
+    return num1 + num2;
+  },
+};
