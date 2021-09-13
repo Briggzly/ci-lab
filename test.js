@@ -6,5 +6,5 @@ test('can create a basic greeting', () => {
 });
 
 test('can add numbers', () => {
-  expect(addN(5,5)).toEqual(10)
+  expect(addN(5,5)).toBe(10)
 })
